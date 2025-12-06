@@ -5,8 +5,8 @@ def setup_docs(app):
         if app.openapi_schema:
             return app.openapi_schema
         openapi_schema = get_openapi(
-            title="Taka Api's",
-            version="1.5.2",
+            title="Whiteshadow Api's",
+            version="1.0.0",
             description="Easy To Use",
             routes=app.routes,
         )
